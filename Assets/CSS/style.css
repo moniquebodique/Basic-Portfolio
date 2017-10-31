@@ -1,7 +1,7 @@
 
 /* Header Section*/
 .header{
-  width: 980px;
+  width: 960px;
   height:50px;
 	margin: 0;
   font-size: 24px;
@@ -11,31 +11,22 @@
   background:white;
   padding-top:20px;
   padding-left:60px;
+  margin-left:55px;
 }
 
 .nav-link {
-    display:inline-block;
-  width:10%;
-  float:right;
-  font-size:14px;
-  padding-right:60px;
-  padding-bottom:60px;
-
-}
-
-#left {
   display:inline-block;
   width:10%;
-  top: 10px;
+  width:40px;
   float:right;
   font-size:14px;
-  padding-right:60px;
+  padding-right:20px;
   padding-bottom:60px;
+
 }
 
 .name {
   position: absolute;
-  top: 5%;
   background-color: white;
   float: left;
   width: 150px;
@@ -46,19 +37,7 @@
   background-color:#33FFCE;
   border-width: 1px;
   padding-right: 10px;
-}
-
-#middle {
-   display:inline-block;
-  width:10%;
-  float:right;
-  font-size:14px;
-}
-
-#right {
-  width:10%;
-  float:right;
-  font-size:14px;
+  padding-left:10px;
 }
 
 
@@ -66,29 +45,30 @@
 body{
 	font-family:arial;
   font-size:14px;
-	background-color:#CFE7E1;
+	background-color:#f2f2f2;
  
 }
 /* Left Box Section Section*/
 
 .article{
 	float:left;
-	width:400px;
+	width:550px;
 	height: auto;
 	color:grey;
   background:white;
   background-color:white;
 	font-size: 14px;
 	padding:20px;
-  margin-left: 30px;
-	margin-top:60px;
-	margin-bottom:50px;
+  margin-left: 110px;
+	margin-top:40px;
+	margin-bottom:60px;
 	
 }
 
 
 #main{
 	font-size: 28px;
+  font-weight:bold;
   width:auto;
 	float:left;
 	color: #33FFCE;
@@ -101,7 +81,7 @@ body{
   font-family:arial;
   font-size: 28px;
   color: #grey;
-  margin-bottom:50px;
+  margin-bottom:30px;
   border-bottom-color:#33FFCE;
 }
 
@@ -115,14 +95,15 @@ img {
 .sidebar{
   float:left;
   height: auto;
+  width:220px;
   color:grey;
   background:white;
   background-color:white;
   font-size: 14px;
   font-family:arial;
   padding:20px;
-  margin-left: 80px;
-  margin-top:60px;
+  margin-left: 100px;
+  margin-top:20px;
   margin-bottom:50px;
 
 }
@@ -134,8 +115,10 @@ img {
 
 }
 	  
+.container{
+  width: 150%;
+}
 
-	
 .footer{
 	position:fixed;
     left:0;
@@ -152,4 +135,17 @@ img {
 	border-top-color: #33FFCE;
 	border-top-width: 15px;
 	text-align: center;
+}
+
+@media screen and (max-width:768px) {
+ body {
+  background-color:lightblue;
+ }
+
+  .wrapper {
+    width: 100%
+    padding:20px;
+
+
+  }
 }
